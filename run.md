@@ -3,7 +3,7 @@
 
 ```Ruby
 puts "start"
-EM.run do {
+EM.run do
   puts "Init"
   EM.add_timer(1) do
     puts "Quit"
